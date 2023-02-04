@@ -4,8 +4,9 @@
 name: Publish to npm
 
 on:
-  release:
-    types: react-navigation-drawer-animated2
+  push:
+    branches:
+      - master
 
 jobs:
   build:
